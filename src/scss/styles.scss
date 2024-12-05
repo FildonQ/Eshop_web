@@ -1,2 +1,19 @@
+
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
 // Import all of Bootstrap's CSS
 @import "bootstrap";
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Odstranění zpoždění při zobrazování */
+    position: absolute;
+    inset: 0 0 auto auto;
+    margin: 0;
+    transform: translate3d(0, 34px, 0);
+}
