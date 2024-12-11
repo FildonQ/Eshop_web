@@ -1,325 +1,335 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eshop</title>
-    <script type="module" src="./js/main.js"></script> 
+    <script type="module" src="./js/main.js"></script>
 </head>
+
 <body>
-  <header class="p-3 ">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-          <img src="images/411N5F1bLbL._AC_UF894_1000_QL80_-removebg-preview.png" style="height: 70px">
-        </a>
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="#" class="nav-link px-5 fs-4 fw-medium link-warning"></a></li>
-        </ul>
-
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-        </form>
-
-        <div class="dropdown text-end">
-          <a href="#" class="d-block link-body-emphasis text-decoration-none" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="images/cart2.svg" alt="mdo" width="32" height="32">
-          </a>
-          <ul class="dropdown-menu text-small">
-            <li><a class="dropdown-item" href="#">Položka 1</a></li>
-            <li><a class="dropdown-item" href="#">Položka 2</a></li> 
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Odrstranit položky</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="katalog.html" id="electricGuitarsDropdown" data-bs-toggle="dropdown" >
-                        Elektrické kytary
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
-                        <li><a class="dropdown-item" href="katalogos.html">Vše</a></li>
-                        <li><a class="dropdown-item" href="#">ST Modely</a></li>
-                        <li><a class="dropdown-item" href="#">Super ST Modely</a></li>
-                        <li><a class="dropdown-item" href="#">T Modely</a></li>
-                        <li><a class="dropdown-item" href="#">Single Cut</a></li>
-                        <li><a class="dropdown-item" href="#">Double Cut</a></li>
-                        <li><a class="dropdown-item" href="#">Hard & Heavy</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Kytary
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
-                      <li><a class="dropdown-item" href="#">Akustické kytary</a></li>
-                      <li><a class="dropdown-item" href="#">Španělky</a></li>
-                      <li><a class="dropdown-item" href="#">12ti Strunné</a></li>
-                  </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Zesilovače
+    <header class="p-3 ">
+        <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                    <img src="images/411N5F1bLbL._AC_UF894_1000_QL80_-removebg-preview.png" style="height: 70px">
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
-                    <li><a class="dropdown-item" href="#">Komba</a></li>
-                    <li><a class="dropdown-item" href="#">Hlavy</a></li>
-                    <li><a class="dropdown-item" href="#">Zkušební</a></li>
-                    <li><a class="dropdown-item" href="#">Ventilové</a></li>
-                    <li><a class="dropdown-item" href="#">Boxy pro zesilovače</a></li>
-                </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Pedály
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
-                  <li><a class="dropdown-item" href="#">Multi-Efekt</a></li>
-                  <li><a class="dropdown-item" href="#">Zkreslení</a></li>
-                  <li><a class="dropdown-item" href="#">Zpoždění</a></li>
-                  <li><a class="dropdown-item" href="#">Smyčky</a></li>
-                  <li><a class="dropdown-item" href="#">Pedálové sady</a></li>
-              </ul>
-          </li><li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Příslušenství
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
-                <li><a class="dropdown-item" href="#">Brašny a Pouzdra</a></li>
-                <li><a class="dropdown-item" href="#">Struny</a></li>
-                <li><a class="dropdown-item" href="#">Příslušenství k pedálům</a></li>
-                <li><a class="dropdown-item" href="#">Náhradní díly a součástky</a></li>
-            </ul>
-        </li>
-            </ul>
-        </div>
-    </div>
-</nav>
 
-<div class="container mt-4">
-    <!-- Hlavička -->
-    <header class="text-center mb-5">
-        <h1>Katalog Kytar</h1>
+                <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-5 fs-4 fw-medium link-warning"></a></li>
+                </ul>
+
+                <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                </form>
+
+                <div class="dropdown text-end">
+                    <a href="#" class="d-block link-body-emphasis text-decoration-none" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img src="images/cart2.svg" alt="mdo" width="32" height="32">
+                    </a>
+                    <ul class="dropdown-menu text-small">
+                        <li><a class="dropdown-item" href="#">Položka 1</a></li>
+                        <li><a class="dropdown-item" href="#">Položka 2</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Odrstranit položky</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <div class="row ">
-        <!-- Filtry -->
-        <div class="col-md-3 ">
-            <div class="card filters">
-                <div class="card-body ">
-                    <h5 class="card-title text-center">Filtry</h5>
-                    <div class="mb-3">
-                        <label for="price-range">Cena:</label>
-                        <input type="range" class="form-range" id="price-range" min="2230" max="249900" step="100">
-                        <div>
-                            <span>2230 Kč</span> - <span>249900 Kč</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="katalog.html" id="electricGuitarsDropdown"
+                            data-bs-toggle="dropdown">
+                            Elektrické kytary
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
+                            <li><a class="dropdown-item" href="katalogos.html">Vše</a></li>
+                            <li><a class="dropdown-item" href="#">ST Modely</a></li>
+                            <li><a class="dropdown-item" href="#">Super ST Modely</a></li>
+                            <li><a class="dropdown-item" href="#">T Modely</a></li>
+                            <li><a class="dropdown-item" href="#">Single Cut</a></li>
+                            <li><a class="dropdown-item" href="#">Double Cut</a></li>
+                            <li><a class="dropdown-item" href="#">Hard & Heavy</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Kytary
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
+                            <li><a class="dropdown-item" href="katalogos.html">Vše</a></li>
+                            <li><a class="dropdown-item" href="#">Akustické kytary</a></li>
+                            <li><a class="dropdown-item" href="#">Španělky</a></li>
+                            <li><a class="dropdown-item" href="#">12ti Strunné</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Zesilovače
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
+                            <li><a class="dropdown-item" href="katalogos.html">Vše</a></li>
+                            <li><a class="dropdown-item" href="#">Komba</a></li>
+                            <li><a class="dropdown-item" href="#">Hlavy</a></li>
+                            <li><a class="dropdown-item" href="#">Zkušební</a></li>
+                            <li><a class="dropdown-item" href="#">Ventilové</a></li>
+                            <li><a class="dropdown-item" href="#">Boxy pro zesilovače</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pedály
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
+                            <li><a class="dropdown-item" href="katalogos.html">Vše</a></li>
+                            <li><a class="dropdown-item" href="#">Multi-Efekt</a></li>
+                            <li><a class="dropdown-item" href="#">Zkreslení</a></li>
+                            <li><a class="dropdown-item" href="#">Zpoždění</a></li>
+                            <li><a class="dropdown-item" href="#">Smyčky</a></li>
+                            <li><a class="dropdown-item" href="#">Pedálové sady</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="electricGuitarsDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Příslušenství
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="electricGuitarsDropdown">
+                            <li><a class="dropdown-item" href="katalogos.html">Vše</a></li>
+                            <li><a class="dropdown-item" href="#">Brašny a Pouzdra</a></li>
+                            <li><a class="dropdown-item" href="#">Struny</a></li>
+                            <li><a class="dropdown-item" href="#">Příslušenství k pedálům</a></li>
+                            <li><a class="dropdown-item" href="#">Náhradní díly a součástky</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <header class="text-center mb-5">
+            <h1>Katalog Kytar</h1>
+        </header>
+
+        <div class="row ">
+            <div class="col-md-3 d-none d-xl-block">
+                <div class="card filters">
+                    <div class="card-body ">
+                        <h5 class="card-title text-center">Filtry</h5>
+                        <div class="mb-3">
+                            <label for="price-range">Cena:</label>
+                            <input type="range" class="form-range" id="price-range" min="2230" max="249900" step="100">
+                            <div>
+                                <span>2230 Kč</span> - <span>249900 Kč</span>
+                            </div>
                         </div>
-                    </div>
 
-                    <h6>Dostupnost</h6>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="in-stock">
-                        <label class="form-check-label" for="in-stock">Skladem</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="on-sale">
-                        <label class="form-check-label" for="on-sale">Prodejna</label>
-                    </div>
+                        <h6>Dostupnost</h6>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="in-stock">
+                            <label class="form-check-label" for="in-stock">Skladem</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="on-sale">
+                            <label class="form-check-label" for="on-sale">Prodejna</label>
+                        </div>
 
-                    <h6>Stav zboží</h6>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="new-item">
-                        <label class="form-check-label" for="new-item">Nové</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="used-item">
-                        <label class="form-check-label" for="used-item">Použité</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="damaged-item">
-                        <label class="form-check-label" for="damaged-item">Rozbalené</label>
-                    </div>
+                        <h6>Stav zboží</h6>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="new-item">
+                            <label class="form-check-label" for="new-item">Nové</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="used-item">
+                            <label class="form-check-label" for="used-item">Použité</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="damaged-item">
+                            <label class="form-check-label" for="damaged-item">Rozbalené</label>
+                        </div>
 
-                    <h6>Štítky</h6>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="discounted-set">
-                        <label class="form-check-label" for="discounted-set">Zvýhodněná sestava</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="new-arrival">
-                        <label class="form-check-label" for="new-arrival">Nové u nás</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="new-product">
-                        <label class="form-check-label" for="new-product">Novinka</label>
-                    </div>
-                    <div class="form-check">
-                        <input type="checkbox" class="form-check-input" id="sale">
-                        <label class="form-check-label" for="sale">Sleva</label>
+                        <h6>Štítky</h6>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="discounted-set">
+                            <label class="form-check-label" for="discounted-set">Zvýhodněná sestava</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="new-arrival">
+                            <label class="form-check-label" for="new-arrival">Nové u nás</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="new-product">
+                            <label class="form-check-label" for="new-product">Novinka</label>
+                        </div>
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="sale">
+                            <label class="form-check-label" for="sale">Sleva</label>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-
-        <!-- Seznam produktů -->
-        <div class="col-md-9">
-            <div class="row">
-                <!-- Produkt 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="images/preview.jpg" class="card-img-top" alt="Kytara 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 1</h5>
-                            <p class="card-text">Popis kytary 1</p>
-                            <p class="text-danger fw-medium">Cena: 5000 Kč</p>
+            <div class="col-md-9 hovinko">
+                <div class="row ">
+                    <a href="produkt.html" class="font-decoration-none"></a>
+                    <div class="col-md-4 mb-4 p-2">
+                        <div class="card ">
+                            <img src="images/kytara.1.png" class="card-img-top" alt="Kytara 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Epiphone SG Standard, Ebony</h5>
+                                <p class="card-text">Rekonstrukce legendární klasiky 60. let</p>
+                                <p class="text-danger fw-medium">12 737 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Produkt 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara2.jpg" class="card-img-top" alt="Kytara 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 2</h5>
-                            <p class="card-text">Popis kytary 2</p>
-                            <p class="text-danger fw-medium">Cena: 7000 Kč</p>
+                    <div class="col-md-4 mb-4 p-2">
+                        <div class="card">
+                            <img src="kytara2.jpg" class="card-img-top" alt="Kytara 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 2</h5>
+                                <p class="card-text"></p>
+                                <p class="text-danger fw-medium"></p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Produkt 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4 p-2">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!-- Další produkty podle potřeby -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Kytara 3</h5>
-                            <p class="card-text">Popis kytary 3</p>
-                            <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            <img src="kytara3.jpg" class="card-img-top" alt="Kytara 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Kytara 3</h5>
+                                <p class="card-text">Popis kytary 3</p>
+                                <p class="text-danger fw-medium">Cena: 10000 Kč</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<footer class="bg-dark text-light py-3">
-    <div class=" text-center">
-        <p>&copy; 2024 RiffShop. 
-          Všechna práva vyhrazena.</p>
-    </div>
-</footer>
+    <footer class="bg-dark text-light py-3">
+        <div class=" text-center">
+            <p>&copy; 2024 RiffShop.
+                Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
 </body>
+
 </html>
