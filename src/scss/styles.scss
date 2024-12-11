@@ -18,9 +18,8 @@ $prefix: "mo-";
 }
 
 .filters {
-    position: fixed;
-    top: 225px;
-    left: 75px;
+    position: sticky;
+    top: 95px;
     width: 250px;
     z-index: 10;
 }
@@ -30,10 +29,15 @@ $prefix: "mo-";
     transition: transform 0.3s ease;
 }
 
+.card a {
+    text-decoration: none;
+}
 
+.card p {
+    color: #242526;
+}
 
-@media (max-width: 720px) {
-    
-
-
+.card h5 {
+    color: #900;
+    text-decoration: underline;
 }
