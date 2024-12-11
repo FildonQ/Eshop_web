@@ -17,3 +17,11 @@ $prefix: "mo-";
     margin: 0;
     transform: translate3d(0, 34px, 0);
 }
+
+.filters {
+    position: fixed;
+    top: 225px; /* Upravte podle potřeby */
+    left: 50px; /* Upravte podle potřeby */
+    width: 250px;
+    z-index: 10;
+}   
