@@ -19,7 +19,7 @@ $prefix: "mo-";
 
 .filters {
     position: sticky;
-    top: 95px;
+    top: 80px;
     width: 250px;
     z-index: 10;
 }
@@ -41,3 +41,18 @@ $prefix: "mo-";
     color: #900;
     text-decoration: underline;
 }
+
+.fw-medium {
+ color: #530000 ;
+}
+
+.line-below {
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d3d3d3;
+  }
+
+  .padding {
+    padding-top: 5px;
+  }
