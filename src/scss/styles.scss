@@ -24,7 +24,7 @@ $prefix: "mo-";
     z-index: 10;
 }
 
-.card:hover {
+.card _:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
@@ -56,3 +56,5 @@ $prefix: "mo-";
   .padding {
     padding-top: 5px;
   }
+
+  
