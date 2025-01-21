@@ -134,21 +134,21 @@
 <body>
     <div class="container my-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
-            <div class="d-flex align-items-center text-muted">
-                <div class="rounded-circle bg-light text-danger d-flex justify-content-center align-items-center" style="width: 30px; height: 30px;">✔</div>
-                <span class="ms-2 fw-bold">Košík</span>
-            </div>
-            <div class="text-muted">&#8594;</div>
             <div class="d-flex align-items-center">
-                <div class="rounded-circle bg-danger text-white d-flex justify-content-center align-items-center" style="width: 30px; height: 30px;">2</div>
-                <span class="ms-2 fw-bold">Doprava a platba</span>
+                <div class="rounded-circle bg-light d-flex justify-content-center align-items-center" style="width: 30px; height: 30px;">1</div>
+                <span class="ms-2 "><a href="kosik.html">Košík</a></span>
             </div>
             <div class="text-muted">&#8594;</div>
             <div class="d-flex align-items-center text-muted">
-                <div class="rounded-circle bg-light d-flex justify-content-center align-items-center" style="width: 30px; height: 30px;">3</div>
-                <span class="ms-2">Dodací údaje</span>
+                <div class="rounded-circle bg-light d-flex justify-content-center align-items-center" style="width: 30px; height: 30px;">2</div>
+                <span class="ms-2 "><a href="doprava.html">Doprava a platba</a></span>
             </div>
-        </div>
+            <div class="text-muted">&#8594;</div>
+            <div class="d-flex align-items-center text-muted">
+                <div class="rounded-circle text-white bg-danger d-flex justify-content-center align-items-center" style="width: 30px; height: 30px;">3</div>
+                <span class="ms-2 fw-bold"><a href="udaje.html">Dodací údaje</a></span>
+            </div>
+        </div>  
 
         <div class="row">
             <div class="col-lg-8">
@@ -175,21 +175,23 @@
                     </div>
 
                     <h4 class="fw-bold mt-4">Fakturační a dodací údaje</h4>
-                    <div class="form-check mb-3">
-                        <input class="form-check-input" type="checkbox" id="companyPurchase">
-                        <label class="form-check-label" for="companyPurchase">
-                            Nakupuji na firmu
-                        </label>
-                    </div>
                     <div class="mb-3">
                         <label for="address" class="form-label">Ulice a č.p.</label>
                         <input type="text" class="form-control" id="address" placeholder="Vaše adresa">
                     </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">Město</label>
+                        <input type="text" class="form-control" id="city" placeholder="Město">
+                    </div>
+                    <div class="mb-3">
+                        <label for="psc" class="form-label">PSČ</label>
+                        <input type="text" class="form-control" id="psc" placeholder="PSČ">
+                    </div>
                 </form>
             </div>
 
-            <div class="col-lg-4">
-                <div class="card">
+            <div class="col-lg-4 mt-4">
+                <div class="card mt-3">
                     <div class="card-body">
                         <h5 class="fw-bold">Shrnutí objednávky</h5>
                         <div class="d-flex justify-content-between">
@@ -211,7 +213,11 @@
             </div>
         </div>
     </div>
-
+    <footer class="bg-dark text-light py-3">
+        <div class=" text-center">
+            <p>&copy; 2024 Guitar Shop. All rights reserved.</p>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
